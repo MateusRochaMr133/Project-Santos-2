@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+    background-color: rgb(182, 182, 182);
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  /*background: linear-gradient(90deg, rgb(13, 161, 230) 0%, rgb(169, 169, 169) 100%);*/
+}
+
+hr {
+  padding: 5px;
+  background-color: black;
+  margin: 10px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.menu-santos {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #555B6F;
+}
+
+i {
+  font-size: 50px;
+}
+
+.login-paragrafo-menu {
+  border: 10px solid black;
+  border-radius: 30px;
+
+}
+
+.img-santos-titulo {
+  padding: 10px;
+  height: 60px;
+  /*border: 7px solid blue;
+  border-radius: 20px;*/
+  margin: 10px 20px;
+}
+
+/*.img-santos-titulo {
+    margin: 40px 30px ;
+    width: 60px;
+    padding: 20px;
+    
+}*/
+
+.top-santos--cabeca {
+  padding: 20px;
+  /*border: 7px solid rgb(58, 60, 190);
+  border-radius: 20px;*/
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  height: 20px;
+  color: white;
+}
+
+.top-santos--cabeca:hover {
+  color: rgb(255, 6, 6);
+  transform: scale(1.10)
+}
+
+
+
+.History-a {
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  margin: 20px;
+  color: #fff;
+}
+
+.santos-fc {
+    padding: 20px;
+    /*border: 7px solid rgb(49, 24, 194);*/
+    border-radius: 10px;
+    list-style: none;
+    background-color: black;
+    border-radius: 20px;
+    color: #fff;
+    text-align: justify;
+}
+
+.principais-titulos {
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  color: #fff;
+}
+
+.paragrafo-principais-titulos {
+  text-align: justify;
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.top-bar-cabecalho {
+    justify-content: space-between;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 20px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-spacing: 10px;
+}
+
+
+.top-bar--titulo-tabela {
+  background-color: darkgray;
+  border: cornsilk;
+  
+}
+
+
+.princ {
+  text-align: center;
+  border: 7px solid blue;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.prinplayers {
+  text-align: center;
+  padding: 10px;
+}
+
+.video-santos {
+  border: 10px solid black;
+  border-radius: 30px;
+}
+
+.card-jogadores {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.sec {
+  padding: 10px;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(116, 116, 116);
+  opacity: 0.8;
+  text-align: center;
+  margin: 20px;
+}
+
+.paragrafo-jogadores-cards {
+  text-align: justify;
+}
+
+.card-1 {
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(189, 189, 189);
+}
+
+.pele-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-2  {
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(189, 189, 189);
+}
+
+.neymar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-3 {
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(189, 189, 189);
+}
+
+.zito-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-4{
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(189, 189, 189);
+}
+
+.pepe-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.but{
+  padding: 10px;
+  color: #fff;
+  border: 10px solid black;
+  border-radius: 15px;
+  background-color: rgb(116, 116, 116);
+  margin: 20px;
+}
+
+.vila-belmiro1 {
+  display: flex;
+}
+
+.Vila-Belmiro {
+  background-color: black;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.paragrafo-vila-belmirop {
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  text-align: justify;
+  margin: 50px;
+}
+
+.img-vila-belmiro {
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  border: 7px solid black;
+}
+
+.top-proximos {
+  text-align: center;
+}
+
+.top-proximos-jogos {
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.bloco-times-proximos-jogos {
+  border: 20px solid black;
+  border-radius: 30px;
+}
+
+.img-jogos {
+  padding: 100px;
+  margin: 20px;
+}
+
+.icone-x {
+  
+}
+
+.informaçoes-estadio {
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 40px;
+  color: #fff;
+}
+
+.elenco-atual {
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px ;
+}
+
+
+
+
+.jogadores-elenco {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px 40px;
+}
+
+.menu-jogadores-elenco {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.menu-jogadores-elenco2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-soteldo , .img-joaquim , .img-jean-lucas , .img-rodrigo-fernandez , .img-marcos-leonardo , .img-joao-paulo {
+  border-radius: 50px;
+}
+
+.elenco-atualizado-paragrafo {
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin: 20px 40px;
+}
+
+
+.top-bar--rodape {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #283DC7;
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
+}
+
+.paragrafo-rodape {
+  text-align: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 760px) and (min-width:320px) {
+  .menu-santos {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(83, 83, 83);
+    padding: 10px;
+    margin-right: 100px;
+  }
+  
+  .paragrafo-vila-belmirop {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-vila-belmiro {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .princ {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sec {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .menu-jogadores-elenco , .menu-jogadores-elenco2 {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
